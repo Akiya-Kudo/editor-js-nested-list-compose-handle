@@ -119,6 +119,8 @@ export default class NestedList {
       this.nodes.wrapper.addEventListener('keydown', (event) => {
         switch (event.key) {
           case 'Enter':
+            console.log("helllo")
+            console.log(event)
             this.enterPressed(event);
             break;
           case 'Backspace':
